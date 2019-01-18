@@ -34,3 +34,6 @@ If you plan to deploy clusted installation with Availability Sets create a new A
 ### Create a new VM inside the created Availability Set
 Deploying a new VM into the AvSet works the same way and you can use the portal or your scripts to deploy it.
 ![Image of VM AvSet](https://github.com/msftphleiten/proximity-placement-groups/blob/master/VM-create-AvSet.png)
+
+## Using Azure Availability Zones with Proximity Placement Groups
+You can also combine the usage with Availability Zones, just create one PPG per zone and select the zone with your first VM deployment associated with the PPG.
