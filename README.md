@@ -38,3 +38,7 @@ Deploying a new VM into the AvSet works the same way and you can use the portal 
 
 ## Using Azure Availability Zones with Proximity Placement Groups
 You can also combine the usage with Availability Zones, just create one PPG per zone and select the zone with your first VM deployment associated with the PPG.
+
+# Test Deployment
+After you deployed PPGs you can test your deployment to check the latency.
+IMPORTANT: Use tools like SAP NIPING to test the latency, the test needs to be done using TDP or UDP packets.
