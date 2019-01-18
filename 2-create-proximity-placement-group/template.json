@@ -1,0 +1,17 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+        "ppgName": {
+            "type": "string"
+        }
+  },
+  "resources": [
+        {
+            "apiVersion": "2018-10-01",
+            "type": "Microsoft.Compute/ProximityPlacementGroups",
+            "name": "[parameters('ppgName')]",
+            "location": "[resourceGroup().location]"
+        }
+  ]
+}

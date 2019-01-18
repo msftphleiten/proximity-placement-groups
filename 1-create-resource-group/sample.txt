@@ -1,0 +1,1 @@
+.\create-resource-group.ps1 -resourceGroupName PPG2 -resourceGroupLocation westeurope

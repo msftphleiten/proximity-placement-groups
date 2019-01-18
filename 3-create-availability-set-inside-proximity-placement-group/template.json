@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Availability-Set-Name": {
+            "type": "String"
+        },
+        "FaultDomains": {
+            "type": "int"
+        },
+        "UpdateDomains": {
+            "type": "int"
+        },
+        "ProximityPlacementGroup": {
+            "type": "string"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Compute/availabilitySets",
+            "sku": {
+                "name": "Aligned"
+            },
+            "name": "[parameters('Availability-Set-Name')]",
+            "apiVersion": "2018-06-01",
+            "location": "[resourceGroup().location]",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "platformUpdateDomainCount": "[parameters('UpdateDomains')]",
+                "platformFaultDomainCount": "[parameters('FaultDomains')]",
+                "virtualMachines": [],
+                "ProximityPlacementGroup": {
+                    "id": "[resourceId('Microsoft.Compute/proximityPlacementGroups',parameters('ProximityPlacementGroup'))]"
+				}
+            },
+            "dependsOn": []
+        }
+    ]
+}
+	
