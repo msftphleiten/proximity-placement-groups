@@ -41,4 +41,4 @@ You can also combine the usage with Availability Zones, just create one PPG per 
 
 # Test Deployment
 After you deployed PPGs you can test your deployment to check the latency.
-IMPORTANT: Use tools like SAP NIPING to test the latency, the test needs to be done using TDP or UDP packets.
+IMPORTANT: Use tools like SAP NIPING, SockPerf or Latte  to test the latency, the test needs to be done using TDP or UDP packets.
