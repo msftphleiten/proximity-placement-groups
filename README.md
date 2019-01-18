@@ -3,6 +3,15 @@
 
 Proximity Placement Groups (PPG) are an Azure feature that is in private preview. The goal is to place different resources near to each other to avoid network latency.
 
+The preview is limited to
+- US West Central
+- US West
+- Southeast Asia 
+- West Europe 
+- US East
+Followed by others in the coming weeks/months
+
+
 ![Image of PPG](https://github.com/msftphleiten/proximity-placement-groups/blob/master/PPG.jpg)
 
 ## Start deployment
