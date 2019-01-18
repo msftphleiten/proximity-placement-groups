@@ -12,6 +12,7 @@ The preview is limited to
 
 Followed by others in the coming weeks/months
 
+To deploy PPGs you can use the Buttons or the scripts and ARM templates available within this repository.
 
 ![Image of PPG](https://github.com/msftphleiten/proximity-placement-groups/blob/master/PPG.jpg)
 
