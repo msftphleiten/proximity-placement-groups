@@ -9,6 +9,7 @@ The preview is limited to
 - Southeast Asia 
 - West Europe 
 - US East
+
 Followed by others in the coming weeks/months
 
 
