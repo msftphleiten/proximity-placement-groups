@@ -28,6 +28,7 @@ Always start to deploy the least common resource as the location of the PPG will
 
 ### Create an Availability Set associated with the PPG
 If you plan to deploy clusted installation with Availability Sets create a new Availability Set.
+
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmsftphleiten%2Fproximity-placement-groups%2Fmaster%2F3-create-availability-set-inside-proximity-placement-group%2Ftemplate.json)
 
 ### Create a new VM inside the created Availability Set
