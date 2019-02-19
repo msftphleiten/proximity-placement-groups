@@ -77,7 +77,7 @@
     "vnetId": "[parameters('virtualNetworkId')]",
     "subnetRef": "[concat(variables('vnetId'), '/subnets/', parameters('subnetName'))]",
     "diagnosticsExtensionName": "Microsoft.Insights.VMDiagnosticsSettings",
-    "networkInterfaceName": "[[variables('networkInterfaceName')]"
+    "networkInterfaceName": "[concat(parameters('virtualMachineName'),'-nic1')]"
   },
   "resources": [
     {
