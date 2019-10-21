@@ -1,1 +1,0 @@
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmsftphleiten%2Fproximity-placement-groups%2Fmaster%2F2-create-proximity-placement-group%2Ftemplate.json%3Ftoken%3DAjXJ4jPMhDWVb_S2aUmPCQ2tA-zI7wVdks5cZqmBwA%253D%253D)
